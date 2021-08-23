@@ -1,0 +1,58 @@
+.login{
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px;
+}
+
+.login > img{
+    object-fit: contain;
+    height: 70px;
+    margin: 20px 0px;
+}
+
+.login > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login > form > input{
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.login > form > input:focus, .login > form > input:focus-within, .login > form > input:focus-visible{
+    border:2px solid #0074b1;
+    outline: none;
+}
+
+.login > form > button{
+    width: 365px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0074b1;
+    border-radius: 5px;
+    cursor: pointer;
+    border:2px solid #0074b1;
+    font-weight: 600;
+}
+
+.login > form > button:focus-visible,.login > form > button:focus{
+    outline: none;
+}
+
+.login__register{
+    color: #0074b1;
+    cursor: pointer;
+}
+
+.login_register_container{
+    margin-top: 20px;
+}
